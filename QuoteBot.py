@@ -1,7 +1,7 @@
 # Dependencies
 import tweepy
 import time
-import os
+import environ from os
 
 # Twitter API Keys
 consumer_key = environ.get('consumer_key')

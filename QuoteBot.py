@@ -22,9 +22,11 @@ api = tweepy.API(auth, parser=tweepy.parsers.JSONParser())
 
 # Quotes to Tweet
 gabo_quotes = [
-    "It is not true that people stop pursuing dreams because they grow old, they grow old because they stop pursuing dreams.",
-    "What matters in life is not what happens to you but what you remember and how you remember it.",
-    "No matter what, nobody can take away the dances you've already had.",
+    "It's enough for me to be sure that you and I exist at this moment.",
+    "There is always something left to love.",
+    "Then he made one last effort to search in his heart for the place where his affection had rotted away, and he could not find it.",
+    "...time was not passing...it was turning in a circle...",
+    "They were so close to each other that they preferred death to separation.”
 ]
 
 # Create function for tweeting
@@ -33,7 +35,7 @@ def TweetOut(quote, tweet_number):
     print("success")
     
 # Set timer to run every minute
-tweet_number = 2
+tweet_number = 5
 for quote in gabo_quotes:
     TweetOut(quote, tweet_number)
     time.sleep(60)

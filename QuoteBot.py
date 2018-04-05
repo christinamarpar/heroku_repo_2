@@ -2,13 +2,18 @@
 import tweepy
 import time
 from os import environ
+#from config import consumer_key, consumer_secret, access_token, access_token_secret
+
+#consumer_key = consumer_key
+#consumer_secret = consumer_secret
+#access_token = access_token
+#access_token_secret = access_token_secret
 
 # Twitter API Keys
 consumer_key = environ.get('consumer_key')
 consumer_secret = environ.get('consumer_secret')
 access_token = environ.get('access_token')
 access_token_secret = environ.get('access_token_secret')
-api_key = environ.get('api_key')
 
 # Setup Tweepy API Authentication
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)

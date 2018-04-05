@@ -22,7 +22,6 @@ api = tweepy.API(auth, parser=tweepy.parsers.JSONParser())
 
 # Quotes to Tweet
 gabo_quotes = [
-    "It's enough for me to be sure that you and I exist at this moment.",
     "There is always something left to love.",
     "Then he made one last effort to search in his heart for the place where his affection had rotted away, and he could not find it.",
     "...time was not passing...it was turning in a circle...",

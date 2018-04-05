@@ -26,7 +26,7 @@ gabo_quotes = [
     "There is always something left to love.",
     "Then he made one last effort to search in his heart for the place where his affection had rotted away, and he could not find it.",
     "...time was not passing...it was turning in a circle...",
-    "They were so close to each other that they preferred death to separation.”
+    "They were so close to each other that they preferred death to separation.”,
 ]
 
 # Create function for tweeting
